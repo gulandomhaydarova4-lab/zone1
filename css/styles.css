@@ -343,10 +343,12 @@ body {
 }
 .every-project__img-wrapper {
 	display: flex;
+	max-width: 588px;
 }
 .every-project__info {
 	max-width: 582px;
 	width: 100%;
+
 }
 
 .every-project__title {
@@ -371,6 +373,11 @@ body {
 	background-color: #7456ec;
 	color: var(--white-color);
 	cursor:pointer;
+
+}
+
+.every-project__container2{
+flex-direction: row-reverse;
 }
 
 /* every-project end */
